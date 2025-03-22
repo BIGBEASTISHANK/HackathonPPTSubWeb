@@ -5,7 +5,7 @@ export default function Submit() {
   return (
     <div className="h-[93vh] scroll-mt-20 flex flex-col" id="submit">
       {/* Title */}
-      <h1 className="font-bold text-8xl mx-auto mt-10 mb-10 text-center lg:text-8xl md:text-7xl sm:text-6xl xs:text-5xl">
+      <h1 className="font-bold text-8xl mx-auto  text-center lg:text-8xl md:text-7xl sm:text-6xl xs:text-5xl">
         Submit Your PPT
       </h1>
 
