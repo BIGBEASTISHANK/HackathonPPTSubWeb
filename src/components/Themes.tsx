@@ -1,8 +1,7 @@
 import React from "react";
 
-type Props = {};
 
-export default function Themes({}: Props) {
+export default function Themes() {
   return (
     <div
       className="h-[93vh] scroll-mt-20 items-center justify-center flex flex-col"

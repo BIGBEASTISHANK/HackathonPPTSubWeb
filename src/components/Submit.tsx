@@ -1,8 +1,7 @@
 import React from "react";
 
-type Props = {};
 
-export default function Submit({}: Props) {
+export default function Submit() {
   return (
     <div className="h-[93vh] scroll-mt-20 flex flex-col" id="submit">
       {/* Title */}

@@ -10,9 +10,8 @@ const bigShouldersFont = Big_Shoulders_Stencil_Text({
   subsets: ["latin"],
 });
 
-type Props = {};
 
-export default function Intro({}: Props) {
+export default function Intro() {
   return (
     <div className="h-[100vh] flex flex-col justify-center items-center gap-4 bg-[image:url(/img/city.png)] bg-cover bg-no-repeat">
       {/* Title div */}

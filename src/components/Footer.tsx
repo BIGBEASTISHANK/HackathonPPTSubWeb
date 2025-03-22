@@ -1,8 +1,7 @@
 import React from "react";
 
-type Props = {};
 
-export default function Footer({}: Props) {
+export default function Footer() {
   return (
     <footer className="flex flex-col items-center justify-center gap-4 bg-[#010106] py-10 px-20 text-white">
       <p className="text-2xl">
