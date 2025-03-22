@@ -6,7 +6,7 @@ import dbConnect from "@/lib/db/mongoose";
 import Submission from "@/lib/models/Submission";
 import mongoose from "mongoose";
 
-const privateKey = process.env.GDRIVE_PRIVATE_KEY;
+const privateKey = process.env.GDRIVE_PRIVATE_KEY?.replace(/\\n/g, '\n');
 const clientEmail = process.env.GDRIVE_CLIENT_EMAIL;
 const serviceAccountClientId = process.env.GDRIVE_SERVICE_ACCOUNT_CLIENT_ID;
 
