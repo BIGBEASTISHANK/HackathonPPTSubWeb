@@ -43,7 +43,7 @@ export default function RootLayout({
           <Navbar />
           {children}
           {/* Footer */}
-          <Footer />
+          {/* <Footer /> */}
         </div>
 
         {/* Please open in desktop */}
