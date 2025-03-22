@@ -18,7 +18,7 @@ export default function Intro({}: Props) {
       {/* Title div */}
       <h2 className={`${playwriteHU.className} text-6xl`}>Welcome to</h2>
       <h1 className={`${bigShouldersFont.className} text-[7rem] font-bold`}>
-        Hackathon PPT Submition
+        Hackathon PPT Submission
       </h1>
     </div>
   );

@@ -61,8 +61,13 @@ export default function Submit({}: Props) {
 
             {/* Themes */}
             <div className="flex gap-2 border-2 border-white rounded-lg px-5 text-xl">
-              <select id="themes" className="outline-none w-full my-3" required>
-                <option defaultValue="" disabled selected hidden>
+              <select
+                id="themes"
+                className="outline-none w-full my-3"
+                required
+                defaultValue=""
+              >
+                <option disabled value="" hidden>
                   Select a theme
                 </option>
                 <option
@@ -114,7 +119,7 @@ export default function Submit({}: Props) {
         </div>
 
         {/* Notice */}
-        <div className="mt-15">
+        <div className="mt-[5%]">
           {/* Note */}
           <h2 className="text-4xl font-bold">Note:</h2>
 
