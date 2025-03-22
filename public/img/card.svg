@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 840">
+  <!-- Background glow effect -->
+  <defs>
+    <radialGradient id="cyberpunkGlow" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neonBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="50%" stop-color="#ff00aa"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Dark background rectangle -->
+  <rect x="0" y="0" width="600" height="840" fill="#0a0e17"/>
+  <rect x="0" y="0" width="600" height="840" fill="url(#cyberpunkGlow)"/>
+  
+  <!-- Main card outline with tech grid pattern -->
+  <rect x="30" y="30" width="540" height="780" rx="8" ry="8" fill="none" stroke="url(#neonBorder)" stroke-width="3"/>
+  
+  <!-- Circuit pattern overlay -->
+  <path d="M30,150 H570 M30,300 H570 M30,450 H570 M30,600 H570 M30,750 H570" stroke="#1a2e46" stroke-width="1.5"/>
+  <path d="M150,30 V810 M300,30 V810 M450,30 V810" stroke="#1a2e46" stroke-width="1.5"/>
+  
+  <!-- Glitchy corners -->
+  <!-- Top left -->
+  <path d="M30,30 H120 V60 H60 V120 H30 Z" fill="#000" stroke="#00f0ff" stroke-width="1.5"/>
+  <path d="M30,30 H90 V45 H45 V90 H30 Z" fill="none" stroke="#ff00aa" stroke-width="1.5"/>
+  
+  <!-- Top right -->
+  <path d="M570,30 H480 V60 H540 V120 H570 Z" fill="#000" stroke="#00f0ff" stroke-width="1.5"/>
+  <path d="M570,30 H510 V45 H555 V90 H570 Z" fill="none" stroke="#ff00aa" stroke-width="1.5"/>
+  
+  <!-- Bottom left -->
+  <path d="M30,810 H120 V780 H60 V720 H30 Z" fill="#000" stroke="#00f0ff" stroke-width="1.5"/>
+  <path d="M30,810 H90 V795 H45 V750 H30 Z" fill="none" stroke="#ff00aa" stroke-width="1.5"/>
+  
+  <!-- Bottom right -->
+  <path d="M570,810 H480 V780 H540 V720 H570 Z" fill="#000" stroke="#00f0ff" stroke-width="1.5"/>
+  <path d="M570,810 H510 V795 H555 V750 H570 Z" fill="none" stroke="#ff00aa" stroke-width="1.5"/>
+  
+  <!-- Digital lines/glitch effects -->
+  <path d="M75,90 H135 M465,90 H525" stroke="#ff00aa" stroke-width="3"/>
+  <path d="M75,750 H135 M465,750 H525" stroke="#ff00aa" stroke-width="3"/>
+  
+  <!-- Binary code decoration (stylized) -->
+  <text x="52" y="195" fill="#00f0ff" font-family="monospace" font-size="12">01010</text>
+  <text x="52" y="217" fill="#00f0ff" font-family="monospace" font-size="12">10101</text>
+  <text x="52" y="240" fill="#00f0ff" font-family="monospace" font-size="12">01011</text>
+  
+  <text x="517" y="615" fill="#00f0ff" font-family="monospace" font-size="12">10101</text>
+  <text x="517" y="637" fill="#00f0ff" font-family="monospace" font-size="12">01010</text>
+  <text x="517" y="660" fill="#00f0ff" font-family="monospace" font-size="12">11010</text>
+  
+  <!-- HUD-style elements -->
+  <path d="M75,60 L97,60 L97,67 L112,67" fill="none" stroke="#00f0ff" stroke-width="1.5"/>
+  <path d="M525,60 L502,60 L502,67 L487,67" fill="none" stroke="#00f0ff" stroke-width="1.5"/>
+  <path d="M75,780 L97,780 L97,772 L112,772" fill="none" stroke="#00f0ff" stroke-width="1.5"/>
+  <path d="M525,780 L502,780 L502,772 L487,772" fill="none" stroke="#00f0ff" stroke-width="1.5"/>
+  
+  <!-- Center content area with tech border -->
+  <rect x="105" y="150" width="390" height="540" rx="4" ry="4" fill="#0f1620" stroke="#1a2e46" stroke-width="1.5"/>
+  
+  <!-- Animated scanning line effect (static representation) -->
+  <rect x="105" y="405" width="390" height="3" fill="#00f0ff" opacity="0.3"/>
+  
+  <!-- Access code text -->
+  <text x="300" y="735" fill="#ff00aa" font-family="monospace" font-size="15" text-anchor="middle">ACCESS-CODE: 7X-F0R3V3R</text>
+</svg>

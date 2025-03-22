@@ -27,7 +27,7 @@ export default function Navbar() {
         scrolled ? "px-10" : "px-20"
       } text-white transition-all duration-300 ${
         scrolled ? "bg-[#010106] shadow-lg" : "bg-transparent"
-      }`}
+      } z-[100]`}
     >
       <ul
         className={`flex ${
@@ -44,10 +44,7 @@ export default function Navbar() {
           <a href="#themes">Themes</a>
         </li>
         <li>
-          <a href="#sponsors">Sponsors</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
+          <a href="#submit">Submit</a>
         </li>
       </ul>
     </nav>

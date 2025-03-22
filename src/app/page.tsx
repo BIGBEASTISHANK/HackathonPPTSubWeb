@@ -1,7 +1,6 @@
 import About from "@/components/About";
-import Contact from "@/components/Contact";
 import Intro from "@/components/Intro";
-import Sponsors from "@/components/Sponsors";
+import Submit from "@/components/Submit";
 import Themes from "@/components/Themes";
 import React from "react";
 
@@ -14,8 +13,7 @@ export default function page({}: Props) {
       <Intro />
       <About />
       <Themes />
-      <Sponsors />
-      <Contact />
+      <Submit />
     </div>
   );
 }
