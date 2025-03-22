@@ -24,14 +24,14 @@ export default function Navbar() {
       className={`fixed top-0 left-0 w-full ${
         scrolled ? "h-[5rem]" : "h-[6rem]"
       } flex items-center justify-end ${
-        scrolled ? "px-6" : "px-20"
+        scrolled ? "px-10" : "px-20"
       } text-white transition-all duration-300 ${
-        scrolled ? "bg-[#050514] shadow-lg" : "bg-transparent"
+        scrolled ? "bg-[#010106] shadow-lg" : "bg-transparent"
       }`}
     >
       <ul
         className={`flex ${
-          scrolled ? "gap-6" : "gap-20"
+          scrolled ? "gap-10" : "gap-20"
         } text-3xl transition-all duration-300`}
       >
         <li>

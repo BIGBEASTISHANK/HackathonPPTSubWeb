@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Geist_Mono } from "next/font/google";
+import { Tektur } from "next/font/google";
 import "@/styles/globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { HtmlHTMLAttributes } from "react";
 
-const geistMono = Geist_Mono({
+const tekturFont = Tektur({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
@@ -26,14 +26,22 @@ export default function RootLayout({
       style={{ "scroll-behavior": "smooth" } as HtmlHTMLAttributes<HTMLElement>}
     >
       <body
-        className={`${geistMono.className} antialiased bg-[#07071C] text-[#F6F9FC]`}
+        className={`${tekturFont.className} antialiased bg-[#07071C] text-[#F6F9FC]`}
         id="home"
       >
-        {/* Navbar */}
-        <Navbar />
-        {children}
+        {/* Main content */}
+        <div className="max-[1160px]:hidden">
+          {/* Navbar */}
+          <Navbar />
+          {children}
+          {/* Footer */}
+          <Footer />
+        </div>
 
-        <Footer />
+        {/* Please open in desktop */}
+        <div className="min-[1160px]:hidden h-[100vh] flex flex-col justify-center items-center px-10">
+          <p className="text-3xl text-center">Please open in desktop or on a tablet with a larger screen.</p>
+        </div>
       </body>
     </html>
   );

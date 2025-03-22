@@ -14,7 +14,7 @@ type Props = {};
 
 export default function Intro({}: Props) {
   return (
-    <div className="h-[100vh] flex flex-col justify-center items-center gap-4 bg-[image:url(/img/city.png)] bg-cover bg-no-repeat"> 
+    <div className="h-[100vh] flex flex-col justify-center items-center gap-4 bg-[image:url(/img/city.png)] bg-cover bg-no-repeat">
       {/* Title div */}
       <h2 className={`${playwriteHU.className} text-6xl`}>Welcome to</h2>
       <h1 className={`${bigShouldersFont.className} text-[7rem] font-bold`}>
