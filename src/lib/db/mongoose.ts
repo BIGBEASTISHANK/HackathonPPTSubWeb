@@ -2,7 +2,8 @@
 import mongoose from 'mongoose';
 
 // Force Database name in the URI and options
-const MONGODB_URI = process.env.MONGODB_URI as string;
+// const MONGODB_URI = process.env.MONGODB_URI as string;
+const MONGODB_URI = "";
 
 declare global {
   var mongoose: any;
